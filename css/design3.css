@@ -79,6 +79,9 @@ p {
   line-height: 18px;
   letter-spacing: 0.5px;
 }
+strong{
+  text-transform: uppercase;
+}
 
 footer p {
   color: #ffffff;
