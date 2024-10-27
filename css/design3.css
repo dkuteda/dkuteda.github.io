@@ -43,6 +43,9 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
+nav ul lia:active{
+  text-decoration: underline;
+}
 main {
   padding-top: 60px;
 }
@@ -78,6 +81,11 @@ p {
   text-indent: 30px;
   line-height: 18px;
   letter-spacing: 0.5px;
+}
+p::first-letter {
+  font-size: 1.2em;
+  color: #333;
+  font-weight: bold;
 }
 strong{
   text-transform: uppercase;
@@ -175,6 +183,13 @@ footer {
 
 .button-link a:visited {
   color: inherit; 
+}
+table tr:nth-child(even) {
+  background-color: #CFF;
+}
+
+table tr:nth-child(odd) {
+  background-color: #FFF;
 }
 
 /* Phone design */
